@@ -1,9 +1,9 @@
 # TAM SERS Spectral Classification Based on CNN
 
-This repository provides a complete deep learning pipeline for SERS classification, including spectral preprocessing, CNN model construction, training, evaluation, and visualization. 
-The framework is designed for biological Raman spectroscopy applications and can be extended to cell phenotype recognition and drug sensitivity analysis.
+#This repository provides a complete deep learning pipeline for SERS classification, including spectral preprocessing, CNN model #construction, training, evaluation, and visualization. 
+#The framework is designed for biological Raman spectroscopy applications and can be extended to cell phenotype recognition and drug #sensitivity analysis.
 
-Project Structure
+#Project Structure
 
 ├── Model.py
 │   CNN model definition for Raman spectrum classification.
@@ -18,4 +18,9 @@ Project Structure
 │   Raman spectrum preprocessing, including smoothing, normalization and standardization.
 │
 └── picture.py
-    Figure configuration utilities for generating publication-quality plots.
+│   Figure configuration utilities for generating publication-quality plots.
+│
+│
+├── SERS&RNA.py
+│   Correlation analysis between Raman spectral features and RNA sequencing (gene expression) data for multi-omics interpretation.
+
